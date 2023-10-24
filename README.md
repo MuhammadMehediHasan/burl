@@ -9,7 +9,7 @@ Include this files to your project:
 - [burl.js](https://github.com/MuhammadMehediHasan/burl/blob/main/burl.js)
 - [burl.css](https://github.com/MuhammadMehediHasan/burl/blob/main/burl.css)
 
-Fork github repo: [<img src="https://www.google.com/s2/favicons?domain=github.com&sz=64" style="height:16px">burl](https://github.com/MuhammadMehediHasan/burl)
+Fork github repo: [burl](https://github.com/MuhammadMehediHasan/burl)
 
 
 

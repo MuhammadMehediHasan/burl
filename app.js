@@ -1,1 +1,0 @@
-const $ = (e) => document.querySelector(e);

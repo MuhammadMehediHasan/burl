@@ -34,7 +34,6 @@
 .burl a span {
   padding-left: 5px;
   text-overflow: ellipsis;
-  max-width: 32ch;
   white-space: nowrap;
   overflow: hidden;
 }

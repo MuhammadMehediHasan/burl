@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap');
+
 
 .logo {
     background-color: #222;
@@ -15,17 +17,13 @@
 body {
   background-color: #111;
   font-family: "Montserrat", sans-serif;
-  padding: 1em;
 }
 
 main {
   color: white;
 }
 
-main h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-}
+
 
 
 .content {
@@ -33,6 +31,7 @@ main h1 {
   padding: 1em;
   margin-bottom: 1em;
   border-radius: 0.3em;
+  overflow-x: auto;
 }
 
 p {
@@ -40,8 +39,53 @@ p {
     line-height: 32px;
 }
 
-code {
-    background-color: #222;
-    padding: 5px;
+code.x {
+    background-color: #122;
+    padding: .5em;
     font-family: 'Courier New', Courier, monospace;
+}
+
+::-webkit-scrollbar {
+  background-color: #121;
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #141;
+}
+
+
+pre {
+  display: block;
+  overflow-x: auto;
+  font-family: 'Fira Code', monospace;
+  padding: 1em;
+  border: 1px solid #ffffff1a;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  background: rgba(17, 34, 17, 0.5);
+  color: #ddd;
+  font-weight: 300;
+}
+
+
+.hljs-tag {
+    color: lightblue;
+    font-weight: 700;
+
+}
+
+.hljs-name {
+  color: dodgerblue;
+    font-weight: 400;
+}
+
+.hljs-string {
+  color: #aaff0096;
+  font-weight: 300;
+}
+
+.hljs-comment {
+  color: #75715e;
 }

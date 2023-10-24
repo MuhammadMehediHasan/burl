@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Better URL</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./burl.css" />
+  </head>
+  <body>
+    <main>
+
+      <div class="content">
+        <center>
+          <span class="logo">&lt;b-url&gt;</span>
+          <h4>Better Uniform Resource Link</h4>
+        </center>
+        <p><b>b-url</b> is custom made url handler with beautiful styles like youtube recent link styles. It is fast for grabbing favicon because it uses googles <b> secret </b>api. It has better <b>customization</b> & better <b>Error Handling</b>!
+          
+        </p>
+
+        <p>
+          <h2>Installation:</h2>
+          Include this files to your project:
+          <ul>
+            <li><b-url href="http://127.0.0.1:5500/burl.js" icon="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">burl.js</b-url></li>
+            <li><b-url href="http://127.0.0.1:5500/burl.css" icon="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png">burl.css</b-url> </li>
+          </ul>
+        </p>
+      </div>
+
+
+      <div class="content">
+        <h2>Basic Link</h2>
+        <b-url href="https://youtube.com"></b-url>
+        <b-url href="https://google.com"></b-url>
+        <b-url href="https://fb.com/mythackerr"></b-url>
+        <h2>Custom Content</h2>
+        <b-url href="http://fb.com/login"></b-url>
+        <b-url href="http://stackoverflow.com">Create Account</b-url>
+
+        <b-url no-icon href="http://fb.com/signup">Sign Up</b-url>
+
+        <b-url no-indicator href="https://youtube.com">YouTube</b-url>
+        <b-url chip href="https://youtube.com">Click Me</b-url>
+
+        <b-url icon="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" no-indicator href="http://127.0.0.1:5500/burl.js">Custom Icon</b-url>
+
+
+        <h2>Supports Target</h2>
+        <p> It will open in a new tab
+        <b-url href="https://youtube.com" target="_blank"></b-url>
+
+      </p>
+
+        <h2>Better Error Handling</h2>
+        <code>open devtool</code>
+        <b-url href="non valid url"></b-url>
+        <b-url></b-url>
+
+        <h2>Looks better with text</h2>
+        <p>
+          To learn how to use custom headers in JavaScript visit here:
+          <b-url
+            href="https://rapidapi.com/guides/request-headers-fetch"
+          ></b-url>. You can also follow me here <b-url href="http://fb.com/mythackerr"></b-url> for more guide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorem, quam saepe quos ullam minus. Tempore vitae nesciunt magnam voluptatibus at laudantium similique cum, nemo ipsam alias, dolorum nulla ducimus. <b>Use <code>32px</code> line height for better result.</b>
+          More Links:
+          <ol>
+            <li>Popular Social site: <b-url href="https://fb.com"></b-url></li>
+            <li>Video Streaming site: <b-url href="https://youtube.com"></b-url></li>
+            <li>Most <b>Racist</b> site: <b-url href="https://x.com"></b-url></li>
+            <li>Three year old kids site: <b-url href="https://reddit.com"></b-url></li>
+          </ol>
+        </p>
+      </div>
+    </main>
+
+    <script src="./burl.js"></script>
+  </body>
+</html>

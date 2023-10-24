@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+
+
+.burl {
+  font-family: "Space Mono", monospace;
+  color: white;
+  background-color: #333;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3em;
+  border: 1px solid transparent;
+  margin: 1px 5px;
+  line-height: 18px;
+}
+
+.burl:hover {
+  background-color: #444;
+  border: 1px solid #ffffff1a;
+}
+
+.burl a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+.burl a img {
+  height: 16px;
+  width: 16px;
+}
+
+.burl a span {
+  padding-left: 5px;
+  text-overflow: ellipsis;
+  max-width: 32ch;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.burl a .icon {
+  display: grid;
+  place-items: center;
+  padding-left: 0.5em;
+}
+
+.burl a .icon svg {
+  fill: white;
+  height: 10px;
+}

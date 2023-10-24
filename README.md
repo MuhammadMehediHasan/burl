@@ -15,4 +15,4 @@ Fork github repo: [<img src="https://www.google.com/s2/favicons?domain=github.co
 
 # Documentation
 
-[Visit](update_this_link)
+[Visit](https://muhammadmehedihasan.github.io/burl/)

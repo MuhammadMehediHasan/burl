@@ -1,4 +1,4 @@
-# Better Uniform Resource Link
+# Better Uniform Resource Locator
 **b-url** is custom made url handler with beautiful styles like youtube recent link styles. It is fast for grabbing favicon because it uses googles **secret** api. It has better **customization** and better **Error Handling**!
 
 
